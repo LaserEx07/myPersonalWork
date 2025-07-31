@@ -140,11 +140,10 @@ export const mockData = {
   education: [
     {
       id: 1,
-      degree: "Bachelor of Science in Computer Science",
-      school: "State University",
-      year: "2020 - 2024",
-      gpa: "3.7/4.0",
-      relevant: ["Data Structures", "Software Engineering", "Database Systems", "Mobile Development"]
+      degree: "Associate of Computer Technology - Major in Software Development",
+      school: "University of San-Jose Recoletos",
+      year: "2023 - 2026",
+      relevant: ["Data Structures", "Software Engineering", "Database Systems", "Mobile Development", "Web Technologies"]
     }
   ],
 
