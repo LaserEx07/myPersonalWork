@@ -2,14 +2,14 @@
 
 export const mockData = {
   developer: {
-    name: "Alex Thompson",
+    name: "Junrel Ejurango",
     title: "Full-Stack Developer",
-    location: "New York, NY",
-    email: "alex.thompson@email.com",
-    phone: "+1 (555) 123-4567",
-    linkedin: "linkedin.com/in/alexthompson",
-    github: "github.com/alexthompson",
-    bio: "Passionate junior full-stack developer with expertise in modern web technologies and mobile development. Experienced with React, Angular, PHP, Laravel, C#, and Azure DevOps. Seeking opportunities to contribute to innovative projects and grow in a collaborative development environment."
+    location: "Cebu City, Philippines",
+    email: "junrelejurango@gmail.com",
+    phone: "+63 9940670162",
+    linkedin: "linkedin.com/in/junrelejurango",
+    github: "github.com/LaserEx07",
+    bio: "Passionate Junior Full-Stack Developer with expertise in modern web Technologies and Mobile development. Experienced with React, Angular, PHP, Laravel, C#, and Azure DevOps. Seeking opportunities to contribute to innovative projects and grow in a collaborative development environment."
   },
 
   skills: {
@@ -140,11 +140,10 @@ export const mockData = {
   education: [
     {
       id: 1,
-      degree: "Bachelor of Science in Computer Science",
-      school: "State University",
-      year: "2020 - 2024",
-      gpa: "3.7/4.0",
-      relevant: ["Data Structures", "Software Engineering", "Database Systems", "Mobile Development"]
+      degree: "Associate of Computer Technology - Major in Software Development",
+      school: "University of San-Jose Recoletos",
+      year: "2023 - 2026",
+      relevant: ["Data Structures", "Software Engineering", "Database Systems", "Mobile Development", "Web Technologies"]
     }
   ],
 
