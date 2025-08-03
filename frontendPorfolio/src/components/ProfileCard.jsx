@@ -13,12 +13,7 @@ const ProfileCard = () => {
               <div className="text-white text-6xl font-bold">
                 J
               </div>
-              {/* When you add your image, replace the div above with: */}
-              {/* <img 
-                src="/path-to-your-image.jpg" 
-                alt="Junrel Profile" 
-                className="w-full h-full rounded-full object-cover"
-              /> */}
+            
             </div>
           </div>
 

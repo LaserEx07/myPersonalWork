@@ -64,6 +64,18 @@ export const mockData = {
       bgColor: "#fef3c7",
       featured: true
     },
+    {
+      id: 3,
+      title: "Empowering Young Innovators at the Capstone Hackathon 2025",
+      description: "Content management system for bloggers with rich text editor, media management, and SEO optimization. Built with PHP Laravel framework.",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68e2c6b4d3?w=800&h=600&fit=crop",
+      technologies: ["Laravel", "Vue.js", "MySQL", "AWS S3"],
+      category: "Web Application",
+      githubUrl: "https://github.com/alexthompson/blog-cms",
+      liveUrl: "https://blog-cms-demo.com",
+      bgColor: "#fce7f3",
+      featured: true
+    },
     
     
     {
