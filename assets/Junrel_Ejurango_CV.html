@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junrel Ejurango - Full-Stack Developer CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2563eb;
+        }
+        
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            font-size: 1.3em;
+            color: #6b7280;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.9em;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .summary {
+            font-size: 1em;
+            line-height: 1.7;
+            text-align: justify;
+            color: #4b5563;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        .skill-category h4 {
+            color: #1e40af;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .skill-list {
+            list-style: none;
+        }
+        
+        .skill-list li {
+            padding: 3px 0;
+            color: #4b5563;
+        }
+        
+        .experience-item, .project-item, .education-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+        }
+        
+        .job-title, .project-title, .degree {
+            font-weight: bold;
+            color: #1e40af;
+            font-size: 1.1em;
+        }
+        
+        .company, .school {
+            color: #6b7280;
+            font-weight: 600;
+        }
+        
+        .duration, .year {
+            color: #9ca3af;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        
+        .description {
+            margin-top: 8px;
+            line-height: 1.6;
+            color: #4b5563;
+        }
+        
+        .tech-tags {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .tech-tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        
+        .certification-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: #f0f9ff;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            border-left: 4px solid #0ea5e9;
+        }
+        
+        .cert-name {
+            font-weight: 600;
+            color: #0c4a6e;
+        }
+        
+        .cert-issuer {
+            color: #6b7280;
+            font-size: 0.9em;
+        }
+        
+        .cert-date {
+            color: #9ca3af;
+            font-size: 0.85em;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                font-size: 12px;
+            }
+            .section {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="name">JUNREL EJURANGO</h1>
+        <p class="title">Full-Stack Developer</p>
+        <div class="contact-info">
+            <div class="contact-item">📧 junrelejurango@gmail.com</div>
+            <div class="contact-item">📱 +63 9940670162</div>
+            <div class="contact-item">📍 Cebu City, Philippines</div>
+            <div class="contact-item">💼 linkedin.com/in/junrelejurango</div>
+            <div class="contact-item">🔗 github.com/LaserEx07</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
+        <p class="summary">
+            Passionate Junior Full-Stack Developer with expertise in modern web technologies and mobile development. 
+            Experienced with React, Angular, PHP, Laravel, C#, and Azure DevOps. Seeking opportunities to contribute 
+            to innovative projects and grow in a collaborative development environment. Strong foundation in both 
+            frontend and backend development with hands-on experience in building scalable web applications and 
+            mobile solutions.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">TECHNICAL SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Frontend Development</h4>
+                <ul class="skill-list">
+                    <li>React (Advanced)</li>
+                    <li>Angular (Advanced)</li>
+                    <li>JavaScript (Expert)</li>
+                    <li>TypeScript (Intermediate)</li>
+                    <li>HTML/CSS (Expert)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Backend Development</h4>
+                <ul class="skill-list">
+                    <li>PHP (Advanced)</li>
+                    <li>Laravel (Advanced)</li>
+                    <li>C# (Intermediate)</li>
+                    <li>Node.js (Intermediate)</li>
+                    <li>MySQL (Advanced)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Mobile Development</h4>
+                <ul class="skill-list">
+                    <li>React Native (Intermediate)</li>
+                    <li>Android Studio (Intermediate)</li>
+                    <li>Ionic Framework (Intermediate)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Tools & DevOps</h4>
+                <ul class="skill-list">
+                    <li>Azure DevOps (Intermediate)</li>
+                    <li>Git (Expert)</li>
+                    <li>Docker (Beginner)</li>
+                    <li>VS Code (Expert)</li>
+                    <li>Postman (Advanced)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">WORK EXPERIENCE</h2>
+        
+        <div class="experience-item">
+            <div class="job-title">Full-Stack Developer Intern</div>
+            <div class="company">TechStartup Inc.</div>
+            <div class="duration">June 2024 - August 2024 | Remote</div>
+            <div class="description">
+                Developed web applications using React and Laravel. Collaborated with senior developers on feature 
+                implementation and bug fixes. Gained experience with Azure DevOps for CI/CD pipeline management.
+            </div>
+            <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Azure DevOps</span>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-title">Junior Web Developer</div>
+            <div class="company">Digital Solutions LLC</div>
+            <div class="duration">January 2024 - May 2024 | New York, NY</div>
+            <div class="description">
+                Built responsive websites and web applications using modern JavaScript frameworks. Assisted in mobile 
+                app development projects and database optimization.
+            </div>
+            <div class="tech-tags">
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">MySQL</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">FEATURED PROJECTS</h2>
+        
+        <div class="project-item">
+            <div class="project-title">E-Commerce Platform</div>
+            <div class="description">
+                Full-stack e-commerce solution built with React frontend and Laravel backend. Features include user 
+                authentication, product management, shopping cart, and payment integration.
+            </div>
+            <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Stripe API</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Analytics Dashboard</div>
+            <div class="description">
+                Real-time analytics dashboard built with Angular and C# .NET backend. Features data visualization, 
+                reporting, and user management with Azure deployment.
+            </div>
+            <div class="tech-tags">
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">.NET Core</span>
+                <span class="tech-tag">Azure</span>
+                <span class="tech-tag">SQL Server</span>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-title">Task Management Mobile App</div>
+            <div class="description">
+                Cross-platform mobile application for task management with real-time synchronization. Built using 
+                React Native with backend API integration.
+            </div>
+            <div class="tech-tags">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Socket.io</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">EDUCATION</h2>
+        <div class="education-item">
+            <div class="degree">Associate of Computer Technology - Major in Software Development</div>
+            <div class="school">University of San-Jose Recoletos</div>
+            <div class="year">2023 - 2026</div>
+            <div class="description">
+                Relevant Coursework: Data Structures, Software Engineering, Database Systems, Mobile Development, Web Technologies
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">CERTIFICATIONS</h2>
+        
+        <div class="certification-item">
+            <div>
+                <div class="cert-name">Azure Fundamentals (AZ-900)</div>
+                <div class="cert-issuer">Microsoft</div>
+            </div>
+            <div class="cert-date">March 2024</div>
+        </div>
+
+        <div class="certification-item">
+            <div>
+                <div class="cert-name">React Developer Certification</div>
+                <div class="cert-issuer">Meta</div>
+            </div>
+            <div class="cert-date">January 2024</div>
+        </div>
+    </div>
+</body>
+</html>

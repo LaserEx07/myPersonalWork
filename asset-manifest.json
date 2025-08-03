@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/myPersonalWork/static/css/main.7806dc3d.css",
+    "main.js": "/myPersonalWork/static/js/main.68a03ddc.js",
+    "index.html": "/myPersonalWork/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.7806dc3d.css",
+    "static/js/main.68a03ddc.js"
+  ]
+}
