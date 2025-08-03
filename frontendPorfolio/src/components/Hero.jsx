@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from './ui/button';
+// Note: We'll use the public path approach instead of import for public assets
 
 const Hero = ({ developer }) => {
   const scrollToSection = (sectionId) => {
@@ -25,9 +26,13 @@ const Hero = ({ developer }) => {
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 p-1 shadow-2xl">
                 <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden transition-colors duration-200">
                   <img
-                    src="/assets/Junrel.png"
+                    src={`${process.env.PUBLIC_URL || ''}/assets/Junrel.png`}
                     alt="Junrel Ejurango"
                     className="w-full h-full object-cover rounded-full"
+                    onError={(e) => {
+                      console.error('Image failed to load:', e.target.src);
+                      e.target.style.display = 'none';
+                    }}
                   />
                 </div>
               </div>
