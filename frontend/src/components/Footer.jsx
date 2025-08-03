@@ -129,7 +129,7 @@ const Footer = ({ developer }) => {
                 </a>
               </div>
               <div className="text-gray-300 text-sm">
-                📍 {developer.location}
+                 {developer.location}
               </div>
             </div>
 
@@ -149,7 +149,7 @@ const Footer = ({ developer }) => {
             <div className="flex items-center text-gray-300 text-sm mb-4 md:mb-0">
               <span>© {currentYear} {developer.name}. Made with</span>
               <Heart className="h-4 w-4 mx-1 text-red-500 fill-current" />
-              <span>and lots of ☕</span>
+              <span>and lots of </span>
             </div>
 
             {/* Back to Top Button */}

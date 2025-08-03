@@ -4,10 +4,10 @@ import { Card, CardContent } from './ui/card';
 
 const About = ({ developer, education, certifications }) => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-6 transition-colors duration-200">
             About Me
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
@@ -16,11 +16,11 @@ const About = ({ developer, education, certifications }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* About Content */}
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-700 p-8 rounded-2xl transition-colors duration-200">
+              <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4 transition-colors duration-200">
                 Passionate Full-Stack Developer
               </h3>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6 transition-colors duration-200">
                 {developer.bio}
               </p>
               

@@ -4,14 +4,14 @@ import { Card, CardContent } from './ui/card';
 
 const Experience = ({ experience }) => {
   return (
-    <section id="experience" className="py-20 bg-gradient-to-br from-slate-50 to-gray-100">
+    <section id="experience" className="py-20 bg-gradient-to-br from-slate-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-6 transition-colors duration-200">
             Work Experience
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto transition-colors duration-200">
             My journey in software development and the experiences that shaped my skills
           </p>
         </div>
@@ -85,7 +85,7 @@ const Experience = ({ experience }) => {
                           <>
                             <li className="flex items-start text-gray-600 text-sm">
                               <ChevronRight className="h-4 w-4 mr-1 text-green-600 mt-0.5 flex-shrink-0" />
-                              Developed 3 full-stack web applications using React and Laravel
+                              Developed 3 full-stack web applications using React and C#
                             </li>
                             <li className="flex items-start text-gray-600 text-sm">
                               <ChevronRight className="h-4 w-4 mr-1 text-green-600 mt-0.5 flex-shrink-0" />

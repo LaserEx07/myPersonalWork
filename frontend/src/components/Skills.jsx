@@ -3,10 +3,10 @@ import { Progress } from './ui/progress';
 
 const Skills = ({ skills }) => {
   const skillCategories = [
-    { key: 'frontend', title: 'Frontend Development', icon: '🎨', color: 'blue' },
-    { key: 'backend', title: 'Backend Development', icon: '⚙️', color: 'green' },
-    { key: 'mobile', title: 'Mobile Development', icon: '📱', color: 'purple' },
-    { key: 'tools', title: 'Tools & DevOps', icon: '🛠️', color: 'orange' }
+    { key: 'frontend', title: 'Frontend Development',color: 'blue' },
+    { key: 'backend', title: 'Backend Development', color: 'green' },
+    { key: 'mobile', title: 'Mobile Development',color: 'purple' },
+    { key: 'tools', title: 'Tools & DevOps', color: 'orange' }
   ];
 
   const getColorClass = (color) => {
@@ -20,14 +20,14 @@ const Skills = ({ skills }) => {
   };
 
   return (
-    <section id="skills" className="py-20 bg-gradient-to-br from-gray-50 to-slate-100">
+    <section id="skills" className="py-20 bg-gradient-to-br from-gray-50 to-slate-100 dark:from-gray-800 dark:to-gray-900 transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-6 transition-colors duration-200">
             Technical Skills
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto transition-colors duration-200">
             Here are the technologies and tools I work with to bring ideas to life
           </p>
         </div>
@@ -92,9 +92,9 @@ const Skills = ({ skills }) => {
           </h3>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {[
-              'RESTful APIs', 'GraphQL', 'Microservices', 'Database Design', 
+              'RESTful APIs', 'Database Design', 
               'Responsive Design', 'Test-Driven Development', 'Agile/Scrum',
-              'Version Control', 'CI/CD Pipelines', 'Cloud Computing',
+              'Version Control',
               'API Integration', 'Performance Optimization'
             ].map((tech, index) => (
               <span 
