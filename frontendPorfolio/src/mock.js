@@ -128,19 +128,13 @@ export const mockData = {
   ],
 
   certifications: [
+    
     {
       id: 1,
-      name: "Azure Fundamentals (AZ-900)",
-      issuer: "Microsoft",
-      date: "March 2024",
-      credentialId: "AZ900-2024-001"
-    },
-    {
-      id: 2,
       name: "React Developer Certification",
       issuer: "Meta",
       date: "January 2024",
-      credentialId: "META-REACT-2024"
+      
     }
   ]
 };
